@@ -320,6 +320,7 @@ html.lenis, html.lenis body { height: auto; }
   border-radius: 999px;
   transition: transform 0.3s, opacity 0.3s;
 }
+button.btn { font-family: inherit; line-height: inherit; cursor: pointer; }
 .btn:hover { transform: scale(1.04); opacity: 0.9; }
 .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
 .btn-ghost:hover { background: rgba(255, 255, 255, 0.07); }

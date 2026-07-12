@@ -1,4 +1,5 @@
 import Reveal from "@/components/Reveal";
+import CopyEmail from "@/components/CopyEmail";
 
 export default function Contact() {
   return (
@@ -18,9 +19,7 @@ export default function Contact() {
           <a className="btn" href="mailto:haronzie19@gmail.com">
             Say hello
           </a>
-          <a className="btn btn-ghost" href="mailto:haronzie19@gmail.com">
-            haronzie19@gmail.com
-          </a>
+          <CopyEmail email="haronzie19@gmail.com" />
         </div>
       </Reveal>
       <p className="footer-note">
