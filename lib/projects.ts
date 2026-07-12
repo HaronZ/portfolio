@@ -30,9 +30,9 @@ export const projects: Project[] = [
     cover: "b",
   },
   {
-    title: "This Portfolio",
+    title: "This Website",
     blurb:
-      "Apple-style scroll-driven animation built with Next.js, TypeScript and Motion — every frame you just scrolled through is hand-rolled canvas.",
+      "Apple-style scroll-driven animation built with Next.js, TypeScript and Motion — every frame you just scrolled through is hand-rolled canvas. View the source on GitHub.",
     tags: ["Next.js", "TypeScript", "Motion"],
     letter: "P",
     cover: "c",
