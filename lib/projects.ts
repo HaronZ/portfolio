@@ -28,6 +28,7 @@ export const projects: Project[] = [
     tags: ["Web", "Full-stack"],
     letter: "T",
     cover: "b",
+    image: "/projects/ticketing.png",
   },
   {
     title: "SIGARS",
