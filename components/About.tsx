@@ -22,7 +22,7 @@ export default function About() {
           <Reveal delay={0.1}>
             <div className="stats">
               <div className="stat">
-                <strong>10+</strong>
+                <strong>4</strong>
                 <span>projects shipped</span>
               </div>
               <div className="stat">
