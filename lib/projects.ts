@@ -38,5 +38,6 @@ export const projects: Project[] = [
     cover: "c",
     image: "/projects/portfolio.png",
     imagePosition: "center",
+    href: "https://github.com/HaronZ/portfolio",
   },
 ];
