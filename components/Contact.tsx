@@ -16,7 +16,12 @@ export default function Contact() {
       </Reveal>
       <Reveal delay={0.15}>
         <div className="contact-actions">
-          <a className="btn" href="mailto:haronzie19@gmail.com">
+          <a
+            className="btn"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=haronzie19@gmail.com&su=Hello%20from%20your%20portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Say hello
           </a>
           <CopyEmail email="haronzie19@gmail.com" />
