@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haronzie — Portfolio</title>
+  <meta name="description" content="Portfolio of Haronzie — I design and build fast, fluid apps for mobile and web.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav-brand" href="#top">Haronzie<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO — fades and scales away as you scroll, Apple style -->
+  <header class="hero" id="top">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner" id="heroInner">
+      <p class="hero-kicker">Hello, I’m</p>
+      <h1 class="hero-title">Haronzie</h1>
+      <p class="hero-sub">I design &amp; build apps that feel <em>effortless</em>.</p>
+    </div>
+    <div class="scroll-cue" id="scrollCue" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="chevron"></span>
+    </div>
+  </header>
+
+  <!-- SCRUB — the "Apple" section: scrolling moves the animation frames -->
+  <section class="scrub" id="scrub" aria-label="Animated intro">
+    <div class="scrub-sticky">
+      <canvas id="particles"></canvas>
+      <p class="scrub-caption" data-caption="0">It starts with intent.</p>
+      <p class="scrub-caption" data-caption="1">Ideas take shape.</p>
+      <p class="scrub-caption" data-caption="2">Then I make them real.</p>
+    </div>
+  </section>
+
+  <!-- STATEMENT — words light up one by one as you scroll -->
+  <section class="statement">
+    <div class="statement-sticky">
+      <p class="statement-text" id="statement">Every pixel earns its place. I build fast, fluid products for mobile and web — obsessing over the details people feel but never see.</p>
+    </div>
+  </section>
+
+  <!-- WORK — vertical scroll drives the gallery sideways -->
+  <section class="work" id="work">
+    <div class="work-sticky">
+      <div class="work-track" id="workTrack">
+
+        <div class="work-intro">
+          <p class="kicker">Selected Work</p>
+          <h2>Things I’ve<br>built<span class="dot">.</span></h2>
+          <p class="work-hint">Keep scrolling →</p>
+        </div>
+
+        <!-- EDIT ME: your real projects go here -->
+        <article class="card">
+          <div class="card-cover cover-a"><span class="card-letter">R</span></div>
+          <div class="card-body">
+            <div class="chips"><span class="chip">Mobile</span><span class="chip">Flutter</span><span class="chip">Firebase</span></div>
+            <h3>RallyRide</h3>
+            <p>A ride dispatch platform — real-time booking, driver assignment and live tracking, powered by Cloud Functions.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-cover cover-b"><span class="card-letter">T</span></div>
+          <div class="card-body">
+            <div class="chips"><span class="chip">Web</span><span class="chip">Full-stack</span></div>
+            <h3>Ticketing System</h3>
+            <p>An end-to-end ticketing web app — issue, track and resolve, with a clean dashboard that keeps teams unblocked.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-cover cover-c"><span class="card-letter">P</span></div>
+          <div class="card-body">
+            <div class="chips"><span class="chip">Web</span><span class="chip">Vanilla JS</span></div>
+            <h3>This Portfolio</h3>
+            <p>Apple-style scroll-driven animation with zero frameworks — every frame you just scrolled through is hand-rolled canvas.</p>
+          </div>
+        </article>
+
+        <a class="card card-end" href="#contact">
+          <div class="card-body card-end-body">
+            <h3>Your project<br>could be next<span class="dot">.</span></h3>
+            <p>Let’s talk →</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <p class="kicker reveal">About</p>
+    <div class="about-grid">
+      <div class="about-bio reveal">
+        <h2>Developer with a designer’s eye<span class="dot">.</span></h2>
+        <p>I ship mobile apps with Flutter and Firebase, and web apps with modern JavaScript — from first sketch to production deploy. I care about motion, speed, and the little interactions that make software feel alive.</p>
+      </div>
+      <div class="about-side">
+        <div class="stats reveal">
+          <div class="stat"><strong>10+</strong><span>projects shipped</span></div>
+          <div class="stat"><strong>2</strong><span>platforms — mobile &amp; web</span></div>
+          <div class="stat"><strong>∞</strong><span>attention to detail</span></div>
+        </div>
+        <div class="chips skills reveal">
+          <span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Firebase</span>
+          <span class="chip">Supabase</span><span class="chip">TypeScript</span><span class="chip">Node.js</span>
+          <span class="chip">PostgreSQL</span><span class="chip">Vercel</span><span class="chip">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer class="contact" id="contact">
+    <p class="kicker reveal">Contact</p>
+    <h2 class="contact-title reveal">Let’s build something<br>great together<span class="dot">.</span></h2>
+    <div class="contact-actions reveal">
+      <a class="btn" href="mailto:haronzie18@gmail.com">Say hello</a>
+      <a class="btn btn-ghost" href="mailto:haronzie18@gmail.com">haronzie18@gmail.com</a>
+    </div>
+    <p class="footer-note">© 2026 Haronzie — designed &amp; built by hand, no frameworks.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
