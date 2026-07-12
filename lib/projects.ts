@@ -30,6 +30,17 @@ export const projects: Project[] = [
     cover: "b",
   },
   {
+    title: "SIGARS",
+    blurb:
+      "A brand site for hand-rolled Filipino lomboy-leaf cigars — bold product storytelling with Next.js, Tailwind and Framer Motion, visuals crafted with Higgsfield.",
+    tags: ["Web", "Brand", "Tailwind"],
+    letter: "S",
+    cover: "b",
+    image: "/projects/sigars.png",
+    imagePosition: "center",
+    href: "https://sigars.vercel.app",
+  },
+  {
     title: "This Website",
     blurb:
       "Apple-style scroll-driven animation built with Next.js, TypeScript and Motion — every frame you just scrolled through is hand-rolled canvas. View the source on GitHub.",
