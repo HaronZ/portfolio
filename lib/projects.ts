@@ -14,7 +14,7 @@ export const projects: Project[] = [
   {
     title: "RallyRide",
     blurb:
-      "A ride dispatch platform — real-time booking, driver assignment and live tracking, powered by Cloud Functions.",
+      "A ride dispatch platform — real-time booking, driver assignment and live tracking, powered by Cloud Functions. Co-developed the Flutter driver app.",
     tags: ["Web", "Dispatch", "Firebase"],
     letter: "R",
     cover: "a",
