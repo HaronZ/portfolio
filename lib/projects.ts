@@ -29,6 +29,7 @@ export const projects: Project[] = [
     letter: "T",
     cover: "b",
     image: "/projects/ticketing.png",
+    href: "https://mis-helpdesk.vercel.app",
   },
   {
     title: "SIGARS",
